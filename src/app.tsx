@@ -1,5 +1,7 @@
-import Taro, { Component, Config } from '@tarojs/taro'
-import Index from './pages/index'
+import Taro, { Component, Config } from '@tarojs/taro';
+import './custom-variables.scss';
+import './common.scss';
+import Index from './pages/index';
 
 import './app.scss'
 
@@ -25,15 +27,15 @@ class App extends Component {
     ],
     window: {
       backgroundTextStyle: 'light',
-      navigationBarBackgroundColor: '#0a2291',
+      navigationBarBackgroundColor: '#fff',
       navigationBarTitleText: 'Book Keeping',
-      navigationBarTextStyle: 'white'
+      navigationBarTextStyle: 'black'
     },
     tabBar: {
-        color: "#9ab7ed",
-        backgroundColor: '#0a2291',
-        selectedColor: "#fff",
-        borderStyle: 'white',
+        color: "#CBE6FF",
+        backgroundColor: '#fff',
+        selectedColor: "#1890FF",
+        borderStyle: 'black',
         list: [
           {
             pagePath: 'pages/index/index',

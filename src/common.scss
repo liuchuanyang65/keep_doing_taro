@@ -1,0 +1,230 @@
+// 加载中图标
+.icon--large {
+  font-size: 52px
+}
+
+// elementUI 重置
+.ml0 {
+  .el-form-item__content {
+    margin-left: 0 !important;
+  }
+}
+
+/* 弹性布局 */
+.flex { display: flex !important; }
+.flex_v {
+	display: flex;
+	flex-direction: column;
+}
+.flex_cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex_c {
+  display: flex;
+  align-items: center;
+}
+.flex_cj {
+  display: flex;
+  justify-content: center;
+}
+.flex_lc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex_r {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex_sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex_wrap { flex-flow: wrap; }
+.flex_0 { flex: none; }
+.flex_1 { flex: auto; }
+
+
+/* 边距 */
+.mt10 { margin-top: 10px; }
+.mt20 { margin-top: 20px; }
+.mt30 { margin-top: 30px }
+.mb10 { margin-bottom: 10px; }
+.mb20 { margin-bottom: 20px; }
+.mb30 { margin-bottom: 30px }
+.ml10 { margin-left: 10px; }
+.ml20 { margin-left: 20px; }
+.ml30 { margin-left: 30px }
+.mr10 { margin-right: 10px; }
+.mr20 { margin-right: 20px; }
+.mr30 { margin-right: 30px; }
+
+.pt5 { padding-top: 5px }
+.pb5 { padding-bottom: 5px; }
+.pt10 { padding-top: 10px; }
+.pt20 { padding-top: 20px; }
+.pb10 { padding-bottom: 10px; }
+.pb20 { padding-bottom: 20px; }
+.pl10 { padding-left: 10px; }
+.pl20 { padding-left: 20px; }
+.pr10 { padding-right: 10px; }
+.pa10 { padding: 10px; }
+.pr20 { padding-right: 20px; }
+.pa20 { padding: 20px; }
+
+/* 字体 */
+.fn12 { font-size: 12px; }
+.fn14 { font-size: 14px; }
+.fn16 { font-size: 16px; }
+.fn18 { font-size: 18px; }
+.fn55 {
+  font-size: 50px;
+  color: #36c726;
+}
+.fn-bold { font-weight: bold; }
+.fn_w { font-weight: 600; }
+.fn_b { color: #11131A; }
+.fn_t { color: #3C3F4D; }
+.fn_tt { color: #8C8E99; }
+.fn_d { color: #1890FF; }
+.fn_f { color: #ffffff; }
+.tx-al { text-align: left; }
+.tx-ac { text-align: center; }
+.tx-ar { text-align: right; }
+.text_one {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.text_two {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.text_wrap {
+  word-wrap: break-word;
+}
+.flex_wrap {
+  flex-wrap: wrap;
+}
+.no_wrap { white-space: nowrap; }
+
+.bgf { background: #ffffff; }
+.bgb { background: #95c2e1; }
+.wf { width: 100%; }
+.wh { width: 50%; }
+.w100 { width: 100px !important; }
+.w200 { width: 200px; }
+.hf { height: 100%; }
+.box {
+  box-sizing: border-box;
+}
+
+/* 浮动 */
+.fl { float: left; }
+.fr { float: right; }
+.clearfix:after {
+  content: '';
+  display:block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+// 小手
+.cp {
+  cursor: pointer;
+}
+
+// 边框
+.bt {
+  border-top: 1px solid #E5E6E8;
+}
+.bb {
+  border-bottom: 1px solid #E5E6E8;
+}
+.ba { border: 1px solid #E5E6E8; }
+
+/* 公共样式 */
+.panel {
+  padding: 10px 20px;
+  background: #fff;
+  /* border: 1px solid #f0f0f0; */
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.05);
+}
+.wrap {
+  height: 100%;
+  box-sizing: border-box;
+}
+.content {
+  margin: 24px;
+  min-height: 100%;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+.main::-webkit-scrollbar, .content::-webkit-scrollbar, .wrap::-webkit-scrollbar, body::-webkit-scrollbar, .menu__wrap::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 0px;
+}
+.select {
+  .select__item {
+    .item__tip {
+      font-size: 14px;
+      color: rgba(0,0,0,0.85);
+      line-height: 22px;
+      font-weight: 500;
+      word-break: keep-all;
+    }
+    margin-right: 24px;
+  }
+}
+
+.warn__tips {
+  font-size: 14px;
+  color: #F5222C;
+  line-height: 20px;
+}
+
+// 总店样式
+.shopType {
+  font-size: 12px;
+  color: #FFFFFF;
+  border-radius: 2px;
+  padding: 2px 6px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shopType1 {
+  background: #F78427;
+}
+.shopType2 {
+  background: #1890FF;
+}
+.shopType3 {
+  background: #FFC208;
+}
+// 身份样式
+.relatedType {
+  opacity: 0.8;
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 2px 6px;
+}
+.relatedType1 {
+  color: #D90634;
+  background: #FFBCCA;
+}
+.relatedType2 {
+  color: #F78427;
+  background: #FFDDA5;
+}
+.relatedType3 {
+  background: #CBE6FF;
+  color: #1890FF;
+}
